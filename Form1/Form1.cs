@@ -212,7 +212,7 @@ namespace Form1
             dgvStudents.Rows[index].Selected = true;
 
             rtbResult.Text = details;
-            lblTotal.Text = "Нийт: " + dgvStudents.Rows.Count;
+            lblTotal.Text = " Оюутны тоо: " + dgvStudents.Rows.Count;
 
             MessageBox.Show("Амжилттай бүртгэгдлээ!");
         }
