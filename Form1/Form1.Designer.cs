@@ -344,6 +344,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "oyutnii burtgel";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)nudAge).EndInit();
             ((System.ComponentModel.ISupportInitialize)picStudent).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvStudents).EndInit();
