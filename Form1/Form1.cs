@@ -198,7 +198,7 @@ namespace Form1
                 $"Хүйс: {gender}\n" +
                 $"Тэтгэлэгтэй: {scholarship}\n" +
                 $"Хичээл: {courses}\n" +
-                $"Хэл: {language}\n" +
+                $"Гадаад хэл: {language}\n" +
                 $"Тэнхим: {department}";
 
             // Хүснэгтэд мөр нэмэх
