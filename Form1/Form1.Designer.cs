@@ -170,7 +170,7 @@
             // chkScholarship
             // 
             chkScholarship.AutoSize = true;
-            chkScholarship.Location = new Point(56, 615);
+            chkScholarship.Location = new Point(26, 563);
             chkScholarship.Name = "chkScholarship";
             chkScholarship.Size = new Size(137, 32);
             chkScholarship.TabIndex = 13;
@@ -200,7 +200,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(378, 594);
+            label4.Location = new Point(406, 312);
             label4.Name = "label4";
             label4.Size = new Size(41, 28);
             label4.TabIndex = 16;
@@ -211,7 +211,7 @@
             // 
             lstLanguages.FormattingEnabled = true;
             lstLanguages.Items.AddRange(new object[] { "Монгол", "Англи", "Орос", "Япон", "Солонгос", "Хятад" });
-            lstLanguages.Location = new Point(425, 594);
+            lstLanguages.Location = new Point(378, 363);
             lstLanguages.Name = "lstLanguages";
             lstLanguages.Size = new Size(180, 172);
             lstLanguages.TabIndex = 17;
@@ -219,7 +219,7 @@
             // picStudent
             // 
             picStudent.BorderStyle = BorderStyle.FixedSingle;
-            picStudent.Location = new Point(689, -3);
+            picStudent.Location = new Point(378, 97);
             picStudent.Name = "picStudent";
             picStudent.Size = new Size(180, 180);
             picStudent.SizeMode = PictureBoxSizeMode.Zoom;
@@ -228,7 +228,7 @@
             // 
             // btnChoosePhoto
             // 
-            btnChoosePhoto.Location = new Point(494, 3);
+            btnChoosePhoto.Location = new Point(378, 12);
             btnChoosePhoto.Name = "btnChoosePhoto";
             btnChoosePhoto.Size = new Size(180, 40);
             btnChoosePhoto.TabIndex = 19;
@@ -247,7 +247,7 @@
             // tvDepartment
             // 
             tvDepartment.HideSelection = false;
-            tvDepartment.Location = new Point(770, 567);
+            tvDepartment.Location = new Point(607, 510);
             tvDepartment.Name = "tvDepartment";
             treeNode1.Name = "Node1";
             treeNode1.Text = "Компьютерын ухаан";
@@ -258,7 +258,7 @@
             treeNode4.Name = "Node0";
             treeNode4.Text = "Мэдээллийн технологийн сургууль";
             tvDepartment.Nodes.AddRange(new TreeNode[] { treeNode4 });
-            tvDepartment.Size = new Size(371, 178);
+            tvDepartment.Size = new Size(450, 178);
             tvDepartment.TabIndex = 21;
             // 
             // dgvStudents
@@ -266,7 +266,7 @@
             dgvStudents.AllowUserToAddRows = false;
             dgvStudents.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvStudents.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvStudents.Location = new Point(724, 297);
+            dgvStudents.Location = new Point(607, 101);
             dgvStudents.Name = "dgvStudents";
             dgvStudents.ReadOnly = true;
             dgvStudents.RowHeadersWidth = 62;
@@ -275,7 +275,7 @@
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(872, 198);
+            btnRegister.Location = new Point(197, 567);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(130, 40);
             btnRegister.TabIndex = 23;
@@ -284,7 +284,7 @@
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(1034, 198);
+            btnClear.Location = new Point(378, 555);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(130, 40);
             btnClear.TabIndex = 24;
@@ -294,7 +294,7 @@
             // lblTotal
             // 
             lblTotal.AutoSize = true;
-            lblTotal.Location = new Point(724, 247);
+            lblTotal.Location = new Point(682, 37);
             lblTotal.Name = "lblTotal";
             lblTotal.Size = new Size(78, 28);
             lblTotal.TabIndex = 25;
@@ -302,10 +302,10 @@
             // 
             // rtbResult
             // 
-            rtbResult.Location = new Point(467, 201);
+            rtbResult.Location = new Point(607, 292);
             rtbResult.Name = "rtbResult";
             rtbResult.ReadOnly = true;
-            rtbResult.Size = new Size(240, 200);
+            rtbResult.Size = new Size(450, 200);
             rtbResult.TabIndex = 26;
             rtbResult.Text = "";
             // 
@@ -313,7 +313,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1186, 788);
+            ClientSize = new Size(1099, 788);
             Controls.Add(rtbResult);
             Controls.Add(lblTotal);
             Controls.Add(btnClear);
